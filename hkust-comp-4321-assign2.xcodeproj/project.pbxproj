@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E7BF25AA1CCD124700D9605D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7BF25A91CCD124700D9605D /* main.cpp */; };
+		E7BF25B71CCD131B00D9605D /* TrainingData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7BF25B21CCD131B00D9605D /* TrainingData.cpp */; };
+		E7BF25B81CCD131B00D9605D /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = E7BF25B31CCD131B00D9605D /* readme.md */; };
+		E7BF25B91CCD131B00D9605D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7BF25B51CCD131B00D9605D /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,13 @@
 
 /* Begin PBXFileReference section */
 		E7BF25A61CCD124700D9605D /* hkust-comp-4321-assign2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "hkust-comp-4321-assign2"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7BF25A91CCD124700D9605D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E7BF25B01CCD131B00D9605D /* TrainingData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainingData.h; sourceTree = "<group>"; };
+		E7BF25B11CCD131B00D9605D /* trainingData.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = trainingData.txt; sourceTree = "<group>"; };
+		E7BF25B21CCD131B00D9605D /* TrainingData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TrainingData.cpp; sourceTree = "<group>"; };
+		E7BF25B31CCD131B00D9605D /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		E7BF25B41CCD131B00D9605D /* readme.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = readme.html; sourceTree = "<group>"; };
+		E7BF25B51CCD131B00D9605D /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E7BF25B61CCD131B00D9605D /* Net.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Net.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +65,13 @@
 		E7BF25A81CCD124700D9605D /* hkust-comp-4321-assign2 */ = {
 			isa = PBXGroup;
 			children = (
-				E7BF25A91CCD124700D9605D /* main.cpp */,
+				E7BF25B01CCD131B00D9605D /* TrainingData.h */,
+				E7BF25B11CCD131B00D9605D /* trainingData.txt */,
+				E7BF25B21CCD131B00D9605D /* TrainingData.cpp */,
+				E7BF25B31CCD131B00D9605D /* readme.md */,
+				E7BF25B41CCD131B00D9605D /* readme.html */,
+				E7BF25B51CCD131B00D9605D /* main.cpp */,
+				E7BF25B61CCD131B00D9605D /* Net.h */,
 			);
 			path = "hkust-comp-4321-assign2";
 			sourceTree = "<group>";
@@ -118,7 +132,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7BF25AA1CCD124700D9605D /* main.cpp in Sources */,
+				E7BF25B81CCD131B00D9605D /* readme.md in Sources */,
+				E7BF25B71CCD131B00D9605D /* TrainingData.cpp in Sources */,
+				E7BF25B91CCD131B00D9605D /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
