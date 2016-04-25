@@ -17,10 +17,5 @@ TrainingData.o : Trainingdata.h Trainingdata.cpp
 	$(CC) $(CFLAGS) Trainingdata.cpp
 
 clean:
-	rm *.o backprop
+	rm -f *.o backprop
 
-tar:
-	tar cfv 20034485.tar main.cpp Net.h Net.cpp TrainingData.h TrainingData.cpp
-
-zip:
-	zip 20034485.zip main.cpp Net.h Net.cpp TrainingData.h TrainingData.cpp
