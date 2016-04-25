@@ -1,3 +1,11 @@
+//
+//  Net.h
+//  hkust-comp-4321-assign2
+//
+//  Created by Raymond Sak on 24/4/2016.
+//  Copyright © 2016 Raymond Sak. All rights reserved.
+//
+
 #ifndef NET_H
 #define NET_H
 
