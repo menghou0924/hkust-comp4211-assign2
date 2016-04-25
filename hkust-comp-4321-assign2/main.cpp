@@ -61,4 +61,6 @@ int main()
     }
 
     std::cout << std::endl << "Training Complete" << std::endl;
+
+    return 0;
 }
