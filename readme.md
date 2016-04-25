@@ -1,4 +1,4 @@
-#hkust-comp4211-assign2: Simple Backward Propagation Neural Network
+#Simple Backward Propagation Neural Network
 
 A simple implementation of the neural network with one hidden layer using c++.
 
@@ -16,7 +16,7 @@ And the settings are:
 
 The program has a Makefile. Simply type `make`, and it will compile for you!
 
-To run the program: type ./backprop
+To run the program: execute with ./backprop
 
 To run with your own datafile: put your datafile in the same folder of the source codes and change its name to **trainingData.txt**, and re-run the above.
 
