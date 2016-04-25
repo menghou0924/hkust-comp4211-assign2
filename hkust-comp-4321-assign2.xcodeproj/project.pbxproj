@@ -11,6 +11,7 @@
 		E7BF25B81CCD131B00D9605D /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = E7BF25B31CCD131B00D9605D /* readme.md */; };
 		E7BF25B91CCD131B00D9605D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7BF25B51CCD131B00D9605D /* main.cpp */; };
 		E7BF25BD1CCD163900D9605D /* Net.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7BF25BC1CCD163900D9605D /* Net.cpp */; };
+		E7F1C8971CCE8B32003A61E1 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = E7F1C8961CCE8B32003A61E1 /* Makefile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 		E7BF25B51CCD131B00D9605D /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E7BF25B61CCD131B00D9605D /* Net.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Net.h; sourceTree = "<group>"; };
 		E7BF25BC1CCD163900D9605D /* Net.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Net.cpp; sourceTree = "<group>"; };
+		E7F1C8961CCE8B32003A61E1 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				E7BF25B51CCD131B00D9605D /* main.cpp */,
 				E7BF25B61CCD131B00D9605D /* Net.h */,
 				E7BF25BC1CCD163900D9605D /* Net.cpp */,
+				E7F1C8961CCE8B32003A61E1 /* Makefile */,
 			);
 			path = "hkust-comp-4321-assign2";
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7F1C8971CCE8B32003A61E1 /* Makefile in Sources */,
 				E7BF25B81CCD131B00D9605D /* readme.md in Sources */,
 				E7BF25B71CCD131B00D9605D /* TrainingData.cpp in Sources */,
 				E7BF25B91CCD131B00D9605D /* main.cpp in Sources */,
@@ -261,6 +265,7 @@
 				E7BF25AF1CCD124700D9605D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

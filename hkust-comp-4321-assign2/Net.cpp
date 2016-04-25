@@ -71,7 +71,7 @@ void Net::feedForward(const vector<double> &inputVals)
     // reset the table
     this->cleanTables();
     
-//    this->printWeight();
+    this->printWeight();
     
     // feed in input values
     for (int i = 0; i < m_inputNo; i++)
@@ -144,14 +144,14 @@ double Net::getError(void)
 void Net::initialWeight(int fromBegin, int fromEnd, int toBegin, int toEnd, bool isBias)
 {
     vector<double> temp(m_inputNo + m_hiddenNo + m_outputNo + m_biasNo, 0);
-    double randomNo = (double)rand() * 2 / RAND_MAX - 1;
+    double randomNo = (double)rand() / RAND_MAX - 0.5;
 
     for (int i = fromBegin; i < fromEnd + 1; i++)
     {
         fill(temp.begin(), temp.end(), 0);
         for (int j = toBegin; j < toEnd + 1; j++)
         {
-            temp[j] = isBias ? randomNo : (double)rand() * 2 / RAND_MAX + 2 * (1 - j);
+            temp[j] = isBias ? randomNo : (double)rand() * 8 / RAND_MAX - 4;
         }
         m_weight.push_back(temp);
     }
